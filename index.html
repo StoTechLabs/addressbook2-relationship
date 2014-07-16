@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-1.11.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title></title>
+</head>
+<body>
+  <div class="container">
+    <h1>Address Book</h1>
+    <div class="row">
+      <div id="first-column" class = "col-md-4">
+        <h2>Add contact</h2>
+        <form id="new-contact">
+          <div class="form-group">
+            <label for="new-firstname">First Name</label>
+            <input type="text" class="form-control" id="new-firstname">
+            <label for="new-lastname">Last Name</label>
+            <input type="text" class="form-control" id="new-lastname">
+          </div>
+          <div id="new-addresses">
+            <div class="new-addresses">
+              <div class="form-group">
+                <label for="new-street">Street</label>
+                <input type="text" class="form-control new-street">
+                <label for="new-city">City</label>
+                <input type="text" class="form-control new-city">
+                <label for="new-state">State</label>
+                <input type="text" class="form-control new-state">
+            </div>
+          </div>
+          </div>
+
+
+          <button class="btn btn-primary" type="submit" id="submit-button">Submit</button>
+          <button class="btn btn-primary" type="button" id="add-address">Add an Address</button>
+        </form>
+      </div>
+      <div id="second-column" class = "col-md-4">
+        <h2>Contacts:</h2>
+        <ul id="contacts">
+      </div>
+
+      <div id="third-column" class = "col-md-4">
+        <h2>Contact Details:</h2>
+        <p>First Name: <span id="first-name"></span></p>
+        <p>Last Name: <span id="last-name"></span></p>
+        <p>Address:</p>
+        <ul id="address">
+
+        </ul>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

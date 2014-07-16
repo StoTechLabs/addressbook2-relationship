@@ -1,0 +1,13 @@
+.contacts {
+color: blue;
+
+}
+
+.contacts:hover {
+  color: green;
+  cursor: pointer;
+}
+
+#second-column, #third-column {
+  display: none;
+}
