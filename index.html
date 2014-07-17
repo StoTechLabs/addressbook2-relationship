@@ -32,10 +32,19 @@
             </div>
           </div>
           </div>
-
-
+          <div id="new-phone-email">
+            <div class="new-phone-email">
+              <div class="form-group">
+                <label for="new-phone">Phone Number</label>
+                <input type="text" class="form-control new-phone">
+                <label for="new-email">Email Address</label>
+                <input type="text" class="form-control new-email">
+            </div>
+          </div>
+          </div>
           <button class="btn btn-primary" type="submit" id="submit-button">Submit</button>
           <button class="btn btn-primary" type="button" id="add-address">Add an Address</button>
+          <button class="btn btn-primary" type="button" id="add-email-phone"> + Email and Phone</button>
         </form>
       </div>
       <div id="second-column" class = "col-md-4">
@@ -48,9 +57,11 @@
         <p>First Name: <span id="first-name"></span></p>
         <p>Last Name: <span id="last-name"></span></p>
         <p>Address:</p>
-        <ul id="address">
-
-        </ul>
+        <ul id="address"></ul>
+        <p>Email</p>
+        <ul id="email"></ul>
+        <p>Phone</p>
+        <ul id="phone"></ul>
       </div>
     </div>
   </div>
